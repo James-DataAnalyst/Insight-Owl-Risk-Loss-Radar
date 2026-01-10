@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Insight Owl — D3 SVG Path</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="app">
+      <header class="topbar">
+        <div>
+          <h1 id="title">Insight Owl</h1>
+          <p id="subtitle">
+            Radial Analytics • Anomaly Detection • Morphing Intelligence
+          </p>
+        </div>
+
+        <div class="controls">
+          <button id="resetBtn" class="btn">Reset</button>
+          <button id="toggleFeathersBtn" class="btn secondary">
+            Toggle Feathers
+          </button>
+          <button id="toggleAnomaliesBtn" class="btn secondary">
+            Toggle Anomalies
+          </button>
+        </div>
+      </header>
+
+      <main class="stage">
+        <div class="card">
+          <svg
+            id="viz"
+            viewBox="0 0 1100 760"
+            role="img"
+            aria-label="Insight Owl D3 visualization"
+          ></svg>
+          <div class="legend" id="legend"></div>
+          <div class="hint">
+            Hover ring for nearest-point tooltips • Click legend/series to focus
+            (morph) • Hover anomalies & feathers
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <script src="d3.v7.3.js"></script>
+    <script src="line-generator.js"></script>
+  </body>
+</html>
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SVG Path</title>
+    <link rel="stylesheet" href="app2.css" /> 
+    <script src="d3.v7.3.js"></script>
+  </head>
+  <body>
+     <svg width="600" height="600">
+      <path d="M 50 50 L 100 100 L 90 0 Z" />
+      <path d="M 10 80 Q 95 10 180 80" />
+    </svg> 
+
+    <div class="canva"></div>
+  </body>
+  <script src="line-generator.js"></script>
+</html> -->

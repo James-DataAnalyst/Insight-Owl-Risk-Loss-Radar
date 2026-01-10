@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "title": "Insight Owl; Risk & Loss Radar",
+    "subtitle": "Radial Analytics • Anomaly Detection • Morphing Intelligence",
+    "timeframe": "2025-01 to 2025-12"
+  },
+  "months": [
+    "2025-01",
+    "2025-02",
+    "2025-03",
+    "2025-04",
+    "2025-05",
+    "2025-06",
+    "2025-07",
+    "2025-08",
+    "2025-09",
+    "2025-10",
+    "2025-11",
+    "2025-12"
+  ],
+  "series": [
+    {
+      "name": "Account Takeover",
+      "color": "#5CFA80",
+      "kpis": { "riskScore": 84, "lossUSD": 920000, "volume": 14800 },
+      "values": [58, 64, 71, 80, 77, 69, 62, 67, 73, 79, 85, 88],
+      "distribution": [
+        0.05, 0.09, 0.15, 0.19, 0.16, 0.13, 0.09, 0.07, 0.05, 0.02
+      ]
+    },
+    {
+      "name": "Card Not Present",
+      "color": "#72A7FF",
+      "kpis": { "riskScore": 71, "lossUSD": 610000, "volume": 23200 },
+      "values": [44, 48, 52, 55, 59, 62, 64, 63, 61, 58, 56, 54],
+      "distribution": [
+        0.03, 0.06, 0.12, 0.18, 0.2, 0.16, 0.11, 0.08, 0.04, 0.02
+      ]
+    },
+    {
+      "name": "Chargeback Abuse",
+      "color": "#FFB86B",
+      "kpis": { "riskScore": 66, "lossUSD": 420000, "volume": 11900 },
+      "values": [36, 33, 35, 37, 41, 46, 52, 55, 51, 47, 42, 39],
+      "distribution": [0.02, 0.05, 0.1, 0.15, 0.2, 0.19, 0.14, 0.09, 0.04, 0.02]
+    },
+    {
+      "name": "Promo Exploitation",
+      "color": "#E879FF",
+      "kpis": { "riskScore": 78, "lossUSD": 530000, "volume": 17600 },
+      "values": [30, 34, 41, 50, 63, 72, 76, 74, 68, 61, 55, 49],
+      "distribution": [0.01, 0.03, 0.08, 0.14, 0.2, 0.22, 0.16, 0.1, 0.04, 0.02]
+    },
+    {
+      "name": "Bot Traffic",
+      "color": "#FF6B8B",
+      "kpis": { "riskScore": 88, "lossUSD": 300000, "volume": 40200 },
+      "values": [62, 70, 78, 82, 76, 68, 60, 58, 63, 71, 83, 92],
+      "distribution": [
+        0.06, 0.11, 0.16, 0.18, 0.15, 0.12, 0.09, 0.07, 0.04, 0.02
+      ]
+    },
+    {
+      "name": "Money Mule",
+      "color": "#FFD66B",
+      "kpis": { "riskScore": 73, "lossUSD": 800000, "volume": 7600 },
+      "values": [22, 24, 27, 31, 36, 44, 57, 66, 64, 56, 45, 35],
+      "distribution": [
+        0.02, 0.04, 0.09, 0.14, 0.2, 0.21, 0.16, 0.09, 0.04, 0.01
+      ]
+    }
+  ]
+}
